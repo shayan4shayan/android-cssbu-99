@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textSize="24sp"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        android:textDirection="ltr"
+        android:autoLink="all"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="some random textsome random textsome random textsome random textsome random textsome random textsome random textsome random textsome random textsome random textsome random textsome random textsome random textsome random textsome random text"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click me!"
+        android:textSize="18sp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorWhite"
+        />
+
+</LinearLayout>
